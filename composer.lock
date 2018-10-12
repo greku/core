@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1b0ef3d921aa896d84d1394254e8cd7",
+    "content-hash": "f3cf88a4f0fd519d23a075b172adf124",
     "packages": [
         {
             "name": "bantu/ini-get-wrapper",
@@ -1810,16 +1810,16 @@
         },
         {
             "name": "sabre/dav",
-            "version": "4.0.0-alpha3",
+            "version": "4.0.0-alpha4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/dav.git",
-                "reference": "538819cd9915c7b7c2e1cda32211144b664da3cb"
+                "reference": "07211853a654af9539b14cef44c331606af71ef9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/dav/zipball/538819cd9915c7b7c2e1cda32211144b664da3cb",
-                "reference": "538819cd9915c7b7c2e1cda32211144b664da3cb",
+                "url": "https://api.github.com/repos/sabre-io/dav/zipball/07211853a654af9539b14cef44c331606af71ef9",
+                "reference": "07211853a654af9539b14cef44c331606af71ef9",
                 "shasum": ""
             },
             "require": {
@@ -1839,13 +1839,12 @@
                 "sabre/http": "^5.0",
                 "sabre/uri": "^2.0",
                 "sabre/vobject": "^4.2.0-alpha1",
-                "sabre/xml": "^2.0.0"
+                "sabre/xml": "^2.0.1"
             },
             "require-dev": {
                 "evert/phpdoc-md": "~0.1.0",
                 "monolog/monolog": "^1.18",
-                "phpunit/phpunit": "^6",
-                "sabre/cs": "^1.0.0"
+                "phpunit/phpunit": "^6"
             },
             "suggest": {
                 "ext-curl": "*",
@@ -1885,7 +1884,7 @@
                 "framework",
                 "iCalendar"
             ],
-            "time": "2018-10-05T09:36:51+00:00"
+            "time": "2018-10-12T08:22:08+00:00"
         },
         {
             "name": "sabre/event",
@@ -2153,16 +2152,16 @@
         },
         {
             "name": "sabre/xml",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/xml.git",
-                "reference": "22e96661458c55a2e532885922bf4a232186f6a1"
+                "reference": "c5f510f8d0fa8135de9495145e2758f56037aa1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/xml/zipball/22e96661458c55a2e532885922bf4a232186f6a1",
-                "reference": "22e96661458c55a2e532885922bf4a232186f6a1",
+                "url": "https://api.github.com/repos/sabre-io/xml/zipball/c5f510f8d0fa8135de9495145e2758f56037aa1e",
+                "reference": "c5f510f8d0fa8135de9495145e2758f56037aa1e",
                 "shasum": ""
             },
             "require": {
@@ -2174,8 +2173,7 @@
                 "sabre/uri": ">=1.0,<3.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "*",
-                "sabre/cs": "~1.0.0"
+                "phpunit/phpunit": "*"
             },
             "type": "library",
             "autoload": {
@@ -2212,7 +2210,7 @@
                 "dom",
                 "xml"
             ],
-            "time": "2018-02-08T11:00:49+00:00"
+            "time": "2018-10-09T11:41:10+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5255,17 +5253,6 @@
         {
             "name": "roave/security-advisories",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "67643fa62d521fb76855b0a4cc9a3de7ba38f85b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/67643fa62d521fb76855b0a4cc9a3de7ba38f85b",
-                "reference": "67643fa62d521fb76855b0a4cc9a3de7ba38f85b",
-                "shasum": ""
-            },
             "conflict": {
                 "3f/pygmentize": "<1.2",
                 "adodb/adodb-php": "<5.20.12",
